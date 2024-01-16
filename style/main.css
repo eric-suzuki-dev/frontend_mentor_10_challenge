@@ -19,6 +19,97 @@
     --color-attribution: 228, 45%, 44%;
 }
 
+/* ------ Principal ------ */
+body{
+    background: var(--yellow);
+    font-size: var(--font-size);
+    font-weight: var(--font-semi);
+    font-family: var(--font-principal);
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ------ Conteúdo ------ */
+
+.container{
+    height: 450px;
+    width: 280px;
+    background: var(--white);
+    padding: 25px;
+    border: 2px solid var(--black);
+    border-radius: 30px;
+    box-shadow: 5px 5px var(--black);
+}
+
+/* ------ Imagem ------ */
+.imagem{
+    background-image: url(../assets/images/illustration-article.svg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+/* ------ Card ------ */
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2{
+background: var(--yellow);
+height: 26px;
+width: 74px;
+font-weight: var(--font-extra);
+font-size: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+}
+
+.card span{
+    font-size: 13px;
+    margin-top: 14px;
+}
+
+.card h3{
+    font-size: 18px;
+    font-weight: var(--font-extra);
+    margin-top: 18px;
+}
+
+.card p {
+    color: var(--grey);
+    font-size: 14px;
+    margin-top: 18px;
+    line-height: 24px;
+}
+
+/* ------ Avatar ------ */
+
+.avatar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.avatar img{
+    height: 32px;
+    width: 32px;
+}
+
+.avatar p{
+    font-size: 14px;
+    font-weight: var(--font-extra);
+    margin-left: 15px;
+}
 
 /* -------- Attribution -------- */
 .attribution {
