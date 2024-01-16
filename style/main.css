@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+:root {
+    /* ------ Color Primary ------ */
+    --yellow: hsl(47, 88%, 63%);
+
+    /* ------ Color Neutral ------ */
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+
+    /* ------ Font ------ */
+    --font-principal: 'Figtree', sans-serif;
+    --font-semi: 600;
+    --font-extra: 800;
+    --font-size: 16px;
+
+    /* -------- Attribution -------- */
+    --color-attribution: 228, 45%, 44%;
+}
+
+
+/* -------- Attribution -------- */
+.attribution {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    bottom: 0.5rem;
+    font-size: 0.7rem;
+    color: black;
+}
+
+.attribution a {
+    color: hsl(var(--color-attribution));
+}
