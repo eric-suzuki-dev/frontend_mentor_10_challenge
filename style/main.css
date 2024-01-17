@@ -44,6 +44,15 @@ body{
     box-shadow: 5px 5px var(--black);
 }
 
+/* .con-hover{
+    height: 5px;
+    width: 270px;
+    background: green;
+    display: block;
+    position: absolute;
+    margin-top: 160px;
+} */
+
 /* ------ Imagem ------ */
 .imagem{
     background-image: url(../assets/images/illustration-article.svg);
@@ -110,6 +119,27 @@ border-radius: 5px;
     font-weight: var(--font-extra);
     margin-left: 15px;
 }
+
+/* ------ Hover ------ */
+/* .container:hover{
+    box-shadow: 10px 10px var(--black);
+    background: red;
+} */
+
+/* .container:hover h3{
+    color: var(--yellow);
+    cursor: pointer;
+} */
+
+
+.card h3:hover{
+    color: var(--yellow);
+    cursor: pointer;
+}
+/* .container .card h3:hover{
+    box-shadow: 10px 10px var(--black);
+    background: red;
+} */
 
 /* -------- Attribution -------- */
 .attribution {
